@@ -7,12 +7,15 @@
     </head>
     <body>
         <a-scene>
+            <a-assets>
+                <img id="sky" src="51637869092_76b98f8b5d_k.jpg">
+            </a-assets>
             <!-- creating the camera -->
-            <a-entity id="rig" position="0 1.6 0">
+            <!--a-entity id="rig" position="0 1.6 0">
                 <a-entity id="camera" camera look-controls wasd-controls="acceleration:100"></a-entity>
-            </a-entity>
+            </a-entity-->
 
-            <a-sky src="4982191871_9b7d9a95de_o.jpg"><a-sky>
+            <a-sky src="#sky" rotation="0 -145 0"><a-sky>
         </a-scene>
     </body>
 </html>
